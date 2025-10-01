@@ -23,7 +23,7 @@ jobs:
         run: npm install
 
       - name: make build
-        run:  npx next build
+        run:   npm run build --verbose
 
       - name: upload build artifacts
         uses: actions/upload-artifact@v4.6.2
