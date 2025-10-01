@@ -1,0 +1,17 @@
+name: nextjsapplication
+
+on: 
+ push:
+   branches: [ main ]
+
+jobs:
+  automated-next-js:
+             runs-on: ubuntu-latest
+
+             steps:
+              - name: checkout-changes
+                uses: actions/checkout@v5.0.0
+              - name: nodejs-setup
+                uses: actions/setup-node@v5.0.0
+                
+     
