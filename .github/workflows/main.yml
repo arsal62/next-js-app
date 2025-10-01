@@ -25,6 +25,6 @@ jobs:
                 uses: actions/upload-artifact@v4.6.2
                 with: 
                  name: Next js build
-                 path: out/
+                 path: .next
                 
      
