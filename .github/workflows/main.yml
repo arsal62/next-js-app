@@ -17,7 +17,6 @@ jobs:
                   node-version: 22.x
                   cache: 'npm'
               - name: install dependencies
-                working-directory: APP
                 run: npm install
               - name: make build
                 run: npm run build
